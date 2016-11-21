@@ -1,4 +1,4 @@
-System.register(['angular2/core', "./itemList.component", "./dataBinding.component", "./todoList.component"], function(exports_1, context_1) {
+System.register(['angular2/core', "./itemList.component", "./dataBinding.component", "./todoList.component", "./keyUp.component"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['angular2/core', "./itemList.component", "./dataBinding.compone
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, itemList_component_1, dataBinding_component_1, todoList_component_1;
+    var core_1, itemList_component_1, dataBinding_component_1, todoList_component_1, keyUp_component_1;
     var AppComponent;
     return {
         setters:[
@@ -25,6 +25,9 @@ System.register(['angular2/core', "./itemList.component", "./dataBinding.compone
             },
             function (todoList_component_1_1) {
                 todoList_component_1 = todoList_component_1_1;
+            },
+            function (keyUp_component_1_1) {
+                keyUp_component_1 = keyUp_component_1_1;
             }],
         execute: function() {
             AppComponent = (function () {
@@ -35,8 +38,9 @@ System.register(['angular2/core', "./itemList.component", "./dataBinding.compone
                         selector: 'my-app',
                         template: '<my-list></my-list>' +
                             '<data-bind></data-bind>' +
-                            '<shop></shop>',
-                        directives: [itemList_component_1.ItemComponent, dataBinding_component_1.dataBindingComponent, todoList_component_1.todoAppComponent]
+                            '<shop></shop>' +
+                            '<key-up></key-up>',
+                        directives: [itemList_component_1.ItemComponent, dataBinding_component_1.dataBindingComponent, todoList_component_1.todoAppComponent, keyUp_component_1.KeyUpComponent]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
