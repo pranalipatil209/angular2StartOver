@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f300a9-3101-4ffb-81c0-8220b005d1b6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dataBinding.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dataBinding.component.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/environment_app.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/environment_app.component.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/environment_main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/environment_main.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/itemList.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/itemList.component.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/keyUp.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/keyUp.component.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/todoList.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/todoList.component.js.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/keyUp.component.ts" afterPath="$PROJECT_DIR$/app/keyUp.component.ts" />
     </list>
     <ignored path="angular2-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,11 +70,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keyUp.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="keyUp.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/keyUp.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="360">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -130,7 +128,6 @@
       <list>
         <option value="$PROJECT_DIR$/app/itemList.component.ts" />
         <option value="$PROJECT_DIR$/app/dataBinding.component.ts" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app/itemList.component.js" />
         <option value="$PROJECT_DIR$/app/shoppingList.component.ts" />
@@ -140,6 +137,7 @@
         <option value="$PROJECT_DIR$/app/environment_app.component.ts" />
         <option value="$PROJECT_DIR$/app/itemList.component.js.map" />
         <option value="$PROJECT_DIR$/app/keyUp.component.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -312,19 +310,19 @@
       <workItem from="1479728302724" duration="1813000" />
       <workItem from="1479730213641" duration="1954000" />
       <workItem from="1479733680976" duration="1881000" />
-      <workItem from="1479788130448" duration="437000" />
+      <workItem from="1479788130448" duration="611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22783000" />
+    <option name="totallyTimeSpent" value="22957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25518832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25518832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -605,13 +603,6 @@
     <entry file="file://$PROJECT_DIR$/app/itemList.ts" />
     <entry file="file://$PROJECT_DIR$/app/itemList.js" />
     <entry file="file://$PROJECT_DIR$/app/itemList.js.map" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -714,8 +705,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/keyUp.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="360">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
