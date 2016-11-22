@@ -16,6 +16,6 @@ export class KeyUpComponent{
         this.val += (event.target).value + ' | ';
     }
     clearD(){
-        
+
     }
 }
